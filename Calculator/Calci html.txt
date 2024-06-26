@@ -1,0 +1,50 @@
+!DOCTYPE html
+html lang=en
+  head
+    meta charset=UTF-8 
+    meta http-equiv=X-UA-Compatible content=IE=edge 
+    meta name=viewport content=width=device-width, initial-scale=1.0 
+    link rel=stylesheet href=style.css 
+    titleCalculator - By Code Traversaltitle
+  head
+  body
+    div class=container
+      div class=calculator
+        input type=text id=inputBox placeholder=0 
+        div
+          button class=button operatorACbutton
+          button class=button operatorDELbutton
+          button class=button operator%button
+          button class=button operatorbutton
+        div
+        div
+          button class=button7button
+          button class=button8button
+          button class=button9button
+          button class=button operatorbutton
+        div
+        div
+          button class=button4button
+          button class=button5button
+          button class=button6button
+          button class=button operator-button
+        div
+        div
+          button class=button1button
+          button class=button2button
+          button class=button3button
+          button class=button operator+button
+        div
+
+        div
+          button class=button00button
+          button class=button0button
+          button class=button.button
+          button class=button equalBtn=button
+        div
+      div
+    div
+
+    script src=script.jsscript
+  body
+html
